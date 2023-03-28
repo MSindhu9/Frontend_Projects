@@ -1,0 +1,29 @@
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero_section{
+   height: 100vh;
+    width: 100vw;
+    background-image: url('images/istockphoto-1235601598-612x612.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.lg_text {
+    font-size: 72px;
+}
